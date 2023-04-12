@@ -38,3 +38,20 @@
 		"description": "routing"
 	  }
 ,
+"Creating a Functional Component": {
+  "prefix": "ab_Functional_Component",
+  "body": [
+    "import React from 'react';",
+    "",
+    "const MyComponent = () => {",
+    "  // Component logic here",
+    "  return (",
+    "    // JSX to render component",
+    "  );",
+    "};",
+    "",
+    "export default MyComponent;",
+    ""
+  ],
+  "description": "Creating a Functional Component"
+}
