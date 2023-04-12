@@ -38,3 +38,88 @@
 		"description": "routing"
 	  }
 ,
+"Creating a Class Component": {
+  "prefix": "ab_Class_Component",
+  "body": [
+    "import React, { Component } from 'react';",
+    "",
+    "class MyComponent extends Component {",
+    "  // Component logic here",
+    "  render() {",
+    "    return (",
+    "      // JSX to render component",
+    "    );",
+    "  }",
+    "}",
+    "",
+    "export default MyComponent;",
+    ""
+  ],
+  "description": "Creating a Class Component"
+}
+,
+"Using State in a Class Component": {
+  "prefix": "ab_State_in_Class_Component",
+  "body": [
+    "import React, { Component } from 'react';",
+    "",
+    "class MyComponent extends Component {",
+    "  constructor(props) {",
+    "    super(props);",
+    "    this.state = {",
+    "      // Initial state values here",
+    "    };",
+    "  }",
+    "",
+    "  // Component logic here",
+    "  render() {",
+    "    // Access state values using this.state",
+    "    return (",
+    "      // JSX to render component",
+    "    );",
+    "  }",
+    "}",
+    "",
+    "export default MyComponent;",
+    ""
+  ],
+  "description": "Using State in a Class Component"
+}
+,
+	"Conditional Rendering in Components": {
+  "prefix": "ab_Conditional_Rendering_in_Components",
+  "body": [
+    "import React from 'react';",
+    "",
+    "const MyComponent = ({ condition }) => {",
+    "  return (",
+    "    <div>",
+    "      {condition ? <p>Rendered if condition is true</p> : <p>Rendered if condition is false</p>}",
+    "    </div>",
+    "  );",
+    "};",
+    "",
+    "export default MyComponent;",
+    ""
+  ],
+  "description": "Conditional Rendering in Components"
+}
+,
+	"Mapping an Array to Render a List of Components": {
+  "prefix": "ab_Mapping_an_Array_to_Render_a_List_of_Components",
+  "body": [
+    "import React from 'react';",
+    "",
+    "const MyComponent = ({ condition }) => {",
+    "  return (",
+    "    <div>",
+    "      {condition ? <p>Rendered if condition is true</p> : <p>Rendered if condition is false</p>}",
+    "    </div>",
+    "  );",
+    "};",
+    "",
+    "export default MyComponent;",
+    ""
+  ],
+  "description": "Mapping an Array to Render a List of Components"
+}
